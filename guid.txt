@@ -1,0 +1,53 @@
+Understanding the Workflow of Your Coffee Shop E-commerce System
+
+Your system consists of two main groups of users:
+
+Company Side (Super Admin, Admin, Normal User) – Manages products, orders, and customers.
+Customer Side (Customers) – Browses products, places orders, makes payments.
+🔹 Updated User Roles (Including Customer)
+Role	Can Do
+Super Admin	Manage everything: Users (Admins, Normal Users, Customers), Products, Orders, Payments, Categories
+Admin	Manage Products, Orders, Customers, and Complete Orders
+Normal User (Company Staff)	Edit Items, Complete Orders
+Customer (Website User)	Browse, Add to Cart, Checkout, Make Payments, View Orders, Update Profile
+🔹 How the System Works – Step by Step Workflow
+
+1️⃣ Customer Side (Website User)
+Signup/Login
+
+New customers register or log in.
+The system saves them in the User collection with role = "customer".
+Browsing Products
+
+The customer can see products categorized as "Coffee Beans," "Cappuccino," etc.
+Product details like price, description, and availability are displayed.
+Adding to Cart
+
+Customers add items to their cart (which is stored in the frontend or session).
+Checkout & Payment
+
+Customers choose a payment method:
+Credit Card
+Debit Card
+PayPal
+Cash on Delivery
+Order details are saved in the Order collection.
+Payment details are recorded in the Payment collection.
+Order Confirmation & Email Notification
+
+After payment, the system sends a confirmation email with delivery details.
+
+
+2️⃣ Company Side (Super Admin / Admin / Normal User)
+Admin Receives Order
+
+The order appears in the Admin Panel.
+The admin or super admin changes the order status (pending → processing → shipped → delivered).
+Normal User / Admin Completes Order
+
+Once delivered, a company staff member (Normal User, Admin, or Super Admin) marks the order as "Completed."
+Super Admin & Admin Manage Products and Users
+
+They can add/edit/delete products.
+They can add/remove users (Admins, Normal Users, and Customers).
+Super Admins can assign roles to users.
