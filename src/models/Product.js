@@ -12,7 +12,7 @@ const productSchema = new Schema(
         image: { type: String },
         labels: {
             type: [String],
-            enum: ["featured", "new", "hot", "top selling", "discount"],
+            enum: ["featured", "new", "hot", "top selling", "discount","Cold"],
             required: false
         },
         isActive: { type: Boolean, default: true },
