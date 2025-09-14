@@ -23,8 +23,8 @@ Zero Coffee Shop is more than just a web application; it's a virtual space for c
 * **Dashboard:** A comprehensive overview of sales, customers, and more.
 * **Product Management:** Effortlessly add, update, and manage your coffee offerings.
 * **Customer Management:** Keep track of your valued customers.
-* **Order Management (Coming Soon):** A streamlined process for handling orders.
-* **Reports (Coming Soon):** Generate insightful reports to grow your business.
+* **Order Management:** A streamlined process for handling orders.
+* **Reports:** Generate insightful reports to grow your business.
 
 --------------------------------------------------------------------------------
 
